@@ -5,7 +5,13 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-@interface RNKochavaLaserlike : NSObject <RCTBridgeModule>
+#import "RCTEventEmitter.h"
+#import "KochavaTracker.h"
+
+@interface RNKochavaLaserlike : RCTEventEmitter <RCTBridgeModule, KochavaTrackerDelegate>
+
+@property(nonatomic, strong) KochavaTracker* kochavaTracker;
+
 
 @end
-  
+
