@@ -3,9 +3,10 @@
 #import "RCTBridgeModule.h"
 #else
 #import <React/RCTBridgeModule.h>
+#endif
+
 #import <React/RCTConvert.h>
 #import <React/RCTLog.h>
-#endif
 
 #import "RCTEventEmitter.h"
 #import "KochavaTracker.h"
