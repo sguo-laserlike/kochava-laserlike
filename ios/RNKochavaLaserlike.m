@@ -1,7 +1,7 @@
 
 #import "RNKochavaLaserlike.h"
-#import <React/RCTConvert.h>
-#import <React/RCTLog.h>
+//#import <React/RCTConvert.h>
+//#import <React/RCTLog.h>
 
 @implementation RNKochavaLaserlike
 
