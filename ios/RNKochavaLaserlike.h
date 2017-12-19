@@ -5,8 +5,8 @@
 // #import <React/RCTBridgeModule.h>
 // #endif
 
-// #import <React/RCTConvert.h>
-// #import <React/RCTLog.h>
+#import <React/RCTConvert.h>
+#import <React/RCTLog.h>
 
 #import "RCTEventEmitter.h"
 #import "KochavaTracker.h"
