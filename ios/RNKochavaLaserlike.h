@@ -8,8 +8,8 @@
 #import <React/RCTConvert.h>
 #import <React/RCTLog.h>
 
-#import "RCTEventEmitter.h"
-#import "KochavaTracker.h"
+//#import "RCTEventEmitter.h"
+//#import "KochavaTracker.h"
 @interface RNKochavaLaserlike : RCTEventEmitter <RCTBridgeModule, KochavaTrackerDelegate>
 
 @property(nonatomic, strong) KochavaTracker* kochavaTracker;
